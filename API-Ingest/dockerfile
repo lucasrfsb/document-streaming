@@ -1,0 +1,17 @@
+FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7
+
+COPY requirements.txt /tmp/
+
+RUN pip install --no-cache-dir --upgrade pip && \
+    pip install --requirement /tmp/requirements.txt
+
+COPY ./app /app
+
+# Make port 81 available to the world outside this container
+EXPOSE 81
+
+# Define environment variable
+ENV PORT=81
+
+# Run uvicorn server
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "81"]
