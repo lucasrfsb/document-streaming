@@ -22,8 +22,8 @@ Dockerized Document Streaming ETL, with FastAPI to ingest the data from customer
 - What if the data came as structured?
 
 # Links to deploy the streamlit app as docker container
-#https://maelfabien.github.io/project/Streamlit/#the-application
-#https://towardsdatascience.com/how-to-deploy-a-semantic-search-engine-with-streamlit-and-docker-on-aws-elastic-beanstalk-42ddce0422f3
+https://maelfabien.github.io/project/Streamlit/#the-application  
+https://towardsdatascience.com/how-to-deploy-a-semantic-search-engine-with-streamlit-and-docker-on-aws-elastic-beanstalk-42ddce0422f3
 
 # Credits
 Special thanks to the idealist of the project, Andreas Kretz. Meet his projects at https://github.com/team-data-science/ and his Data Engineering learning course at https://learndataengineering.com/
