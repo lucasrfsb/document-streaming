@@ -19,7 +19,7 @@ Dockerized Document Streaming ETL, with FastAPI to ingest the data from customer
 - Deploy the whole platform with all containers on a cloud platform of your choice
 - Add an API between Streamlit and MongoDB so that Streamlit doesnt have to be directly connected with MongoDB (User& Password)
 - Run this project on Cloud
-- What if the data came as structured?
+- What if the data was stored in a relational model?
 
 # Links to deploy the streamlit app as docker container
 https://maelfabien.github.io/project/Streamlit/#the-application  
